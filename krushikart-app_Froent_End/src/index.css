@@ -1,0 +1,60 @@
+main {
+  min-height: 80vh;
+}
+
+/*========page not found css=======*/
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ========register paged */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.navbar {
+  color: white;
+  background-color: #155919;
+}
+
+
+/* ----------------------------------------------------- */
+
+.gradient-custom {
+  background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+}
